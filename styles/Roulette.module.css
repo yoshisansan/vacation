@@ -1,0 +1,17 @@
+.roulette {
+  width: 280px;
+  height: 80px;
+  border: solid 3px rgb(58, 58, 58);
+  font-size: 28px;
+  text-align: center;
+  line-height: 80px;
+}
+.rouletteDisplay {
+  width: 280px;
+  height: 80px;
+  border: solid 3px rgb(58, 58, 58);
+  font-size: 28px;
+  text-align: center;
+  line-height: 80px;
+  display: none;
+}
