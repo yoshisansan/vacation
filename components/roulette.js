@@ -2,7 +2,7 @@
 // twitterタイムライン追加
 // シェアボタン実装
 import { useState } from 'react';
-import SlotFrames from './SlotFrames';
+import SlotFrames from './slotFrames';
 import styles from '../styles/roulette.module.css';
 import vacationJSON from '../vacation.json';
 import Image from 'next/image';
