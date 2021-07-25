@@ -101,6 +101,7 @@
   .header {
     width: 320px;
     margin: 0 auto;
+    height: 92px;
   }
   .leftCloud {
     top: -8%;
