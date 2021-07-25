@@ -154,3 +154,8 @@
   left: 4%;
   font-size: 12px;
 }
+.copyrightLink {
+  color: #f9ff8d;
+  font-weight: bold;
+  text-decoration: underline;
+}

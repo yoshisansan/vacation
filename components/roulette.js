@@ -256,7 +256,7 @@ const Roulette = () => {
       <TwitterButton twitterMsg={slotState.twitterMsg} />
       <footer>
         <div className={styles.footerStyle}>
-          <p>Copyright © 2021 by あきふみ@海外個人開発</p>
+          <p>Copyright © 2021 by <a className={styles.copyrightLink} href="https://twitter.com/akifumiyoshimu">あきふみ@海外個人開発</a></p>
         </div>
       </footer>
       {/* <TwitterTimelineEmbed
