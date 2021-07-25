@@ -1,4 +1,3 @@
-// vercelへデプロイ
 // twitterタイムライン追加
 // シェアボタン実装
 import { useState } from 'react';
@@ -9,24 +8,6 @@ import Image from 'next/image';
 
 // [{tag: "hoge", item: "呪術廻戦"}, ...]にする
 const {general, morning, noon, evening} = vacationJSON;
-// const GENERAL_DATA = Object.values(general)
-//   .map((data) => {
-//   // チェックマークを確認してジャンルを外す処理待ち
-
-//     const TagAndItemArr = data.items.map(d => {
-//       // tailWordのnullチェック待ち
-//       return {
-//         tag: data.tag,
-//         tailWordMorning: data.tailWordMorning,
-//         tailWordNoon: data.tailWordNoon,
-//         tailWordEvening: data.tailWordEvening,
-//         item: d,
-//       }
-//     });
-
-//     return TagAndItemArr
-//   })
-//   .reduce((prev, next) => prev.concat(next), []);
 
 const generateData = (JSONdata, generalObj) => {
   const generatedData = Object.values(JSONdata)
