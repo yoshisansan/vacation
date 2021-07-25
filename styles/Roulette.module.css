@@ -1,17 +1,152 @@
 .roulette {
-  width: 280px;
+  display: flex;
+  padding: 16px;
+}
+.rouletteImage {
+  position: absolute;
+  width: 260px;
   height: 80px;
-  border: solid 3px rgb(58, 58, 58);
+  top: 60%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.rouletteTimeRange {
+  width: 40px;
   font-size: 28px;
-  text-align: center;
+  font-weight: bold;
   line-height: 80px;
+  padding-right: 16px;
+}
+.rouletteMoji {
+  overflow-wrap: normal;
+  font-size: 20px;
+  line-height: 28.28px;
 }
 .rouletteDisplay {
-  width: 280px;
+  width: 260px;
   height: 80px;
-  border: solid 3px rgb(58, 58, 58);
-  font-size: 28px;
   text-align: center;
-  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 16px;
+}
+.checkLists {
+  display: flex;
+  max-width: 320px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+.checkboxWrap {
+  /* display: inline-block; */
+}
+.checkboxWrap input[type=checkbox] {
   display: none;
+}
+.checkbox {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 14px 8px 32px;
+  position: relative;
+  width: auto;
+}
+.checkbox::before {
+  background: #fff;
+  border: 2px solid #888;
+  border-radius: 4px;
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  margin-top: -12px;
+  position: absolute;
+  top: 50%;
+}
+.checkbox::after {
+  border-right: 3px solid #3ec43e;
+  border-bottom: 3px solid #3ec43e;
+  content: '';
+  display: block;
+  height: 9px;
+  left: 10px;
+  margin-top: -7px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 5px;
+}
+.checkboxWrap input[type=checkbox]:checked + .checkbox::after {
+  opacity: 1;
+}
+.rouletteButtonWrap {
+  width: 320px;
+  height: 200px;
+  position: relative;
+}
+.rouletteAlpaca {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+.rouletteButton {
+  position: absolute;
+  top: 65%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  cursor: pointer;
+}
+.twitterButtonLink {
+  display: flex;
+  width: 320px;
+  height: 120px;
+  justify-content: center;
+}
+.twitterButton {
+  width: 200px;
+  margin: 16px;
+  height: 80px;
+  border: 0;
+  border-radius: 20px;
+  background: #DEF9FF;
+  box-shadow:  20px 20px 60px #bdd4d9,
+               -20px -20px 60px #ffffff;
+}
+.twitterButton:hover {
+  width: 200px;
+  height: 80px;
+  border: 0;
+  border-radius: 20px;
+  background: #DEF9FF;
+  box-shadow: inset 20px 20px 60px #bdd4d9,
+            inset -20px -20px 60px #ffffff;
+  cursor: pointer;
+}
+.footerStyle {
+  position: absolute;
+  left: 0;
+  margin:0 auto;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(-135deg, transparent 50%, #6AC5F6 50%), linear-gradient(-45deg, #93D1F3 50%, transparent 50%);
+  background-size: 50px 50px;
+  z-index:10;
+}
+.footerStyle p {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  font-size: 12px;
 }

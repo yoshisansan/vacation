@@ -1,0 +1,117 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  position: relative;
+  width: 100vw;
+  height: 140px;
+}
+
+.title {
+  font-size: 38px;
+  width: 480px;
+  height: 68px;
+  position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  z-index: 4;
+}
+
+.logo {
+  z-index: 4;
+}
+
+.wrapCloud {
+  width: 480px;
+  height: 140px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.leftCloud, .rightCloud{
+  position: absolute;  
+  z-index: 2;
+}
+
+@keyframes moveCloudLeft{
+  50% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.leftCloud {
+  bottom: 10%;
+  left: -8%;
+
+  animation-name: moveCloudLeft;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes moveCloudRight{
+  50% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.rightCloud {
+  right: -8%;
+  top: 16%;
+
+  animation-name: moveCloudRight;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.main {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.imageAbsolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .title {
+    width: 320px;
+  }
+  .wrapCloud {
+    width: 320px;
+    height: 100px;
+    position: relative;
+  }
+  .header {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .leftCloud {
+    top: -8%;
+    width: 120px;
+  }
+  .rightCloud {
+    top: 28%;
+    left: 64%;
+    width: 100px;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    position: absolute;
+  }
+}

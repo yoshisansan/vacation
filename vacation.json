@@ -2,67 +2,274 @@
   "general": {
     "映像": {
       "tag": "映像",
-      "tailWord": "を観る",
-      "items": ["積み動画","ランボー怒りの脱出","カンフー映画","海外ドラマ","英語字幕で洋画","アカデミー賞作品","ゴールデングローブ受賞 作品","カンヌ国際映画祭 受賞作品","ヴェネチア国際映画祭 受賞作品","SF映画","アクション映画","恋愛映画","８０年代の映画","７０年代の映画","９０年代の映画","pornhub動画"]
+      "tailWordMorning": "を観て",
+      "tailWordNoon": "を観て",
+      "tailWordEvening": "を観る",
+      "items": ["積み動画","ランボー怒りの脱出","カンフー映画","海外ドラマ","英語字幕で洋画","アカデミー賞作品","ゴールデングローブ受賞 作品","カンヌ国際映画祭 受賞作品","ヴェネチア国際映画祭 受賞作品","SF映画","アクション映画","恋愛映画","８０年代の映画","７０年代の映画","９０年代の映画"]
     },
     "Youtube": {
       "tag": "Youtube",
-      "tailWord": "の動画を観る",
+      "tailWordMorning": "の動画を観て",
+      "tailWordNoon": "の動画を観て",
+      "tailWordEvening": "の動画を観る",
       "items": ["Vtuber","炎上系Youtuber","ASMR"]
     },
     "アニメ": {
       "tag": "アニメ",
-      "tailWord": "を観る",
+      "tailWordMorning": "を観て",
+      "tailWordNoon": "を観て",
+      "tailWordEvening": "を観る",
       "items": ["Production I.Gの作品","京アニの作品","ジブリの作品","ufotableの作品","マッドハウスの作品","動画工房制作の作品","WIT STUDIOの作品","P.A.WORKSの作品"]
     },
     "読み物": {
       "tag": "読み物",
-      "tailWord": "を読む",
+      "tailWordMorning": "を読んで",
+      "tailWordNoon": "を読んで",
+      "tailWordEvening": "を読む",
       "items": ["積み漫画","積みテキスト","ライトノベル","BL作品","百合作品","時代小説","ミステリー小説","SF小説","ビジネス書","ITの書籍","ノンフィクションの作品","BRUTESの新刊","週間SPA","日系トレンディ","anan","雑誌・究極のカレー2021","左ききのエレン","おとなの週末 2021年"]
     },
     "音楽": {
       "tag": "音楽",
-      "tailWord": "を聞く",
+      "tailWordMorning": "を聞いて",
+      "tailWordNoon": "を聞いて",
+      "tailWordEvening": "を聞く",
       "items": ["久石譲の音楽","クラシック音楽","ロックバンド音楽","岡崎体育の曲","無限ループでマツケンサンバ"]
     },
     "お出かけ": {
       "tag": "お出かけ",
-      "tailWord": "へ行く",
+      "tailWordMorning": "へ行って",
+      "tailWordNoon": "へ行って",
+      "tailWordEvening": "へ行く",
       "items": ["GoogleMapの行きたい所リスト","普段いかない公園","漫画喫茶","温泉","近所の銭湯","サウナ"]
     },
     "食べ物": {
       "tag": "食べ物",
-      "tailWord": "を食べる",
+      "tailWordMorning": "を食べて",
+      "tailWordNoon": "を食べて",
+      "tailWordEvening": "を食べる",
       "items": ["寿司","りんご"]
     },
     "飲み物": {
       "tag": "飲み物",
-      "tailWord": "を飲む",
+      "tailWordMorning": "を飲んで",
+      "tailWordNoon": "を飲んで",
+      "tailWordEvening": "を飲む",
       "items": ["ストロングゼロ","クラフトビール","自作カクテル"]
     },
     "ゲーム": {
       "tag": "ゲーム",
-      "tailWord": "をプレイする",
-      "items": ["Among Us","ウマ娘","囲碁","将棋","シューティングゲーム","マリオ"]
+      "tailWordMorning": "をプレイして",
+      "tailWordNoon": "をプレイして",
+      "tailWordEvening": "をプレイする",
+      "items": ["Among Us","ウマ娘","囲碁","将棋","シューティングゲーム","マリオ","アイドルマスター","スマブラ"]
     },
     "スポーツ": {
       "tag": "スポーツ",
-      "tailWord": null,
-      "items": ["ロッククライミング","ランニングする"]
+      "tailWordMorning": "をして",
+      "tailWordNoon": "をして",
+      "tailWordEvening": "をする",
+      "items": ["ロッククライミング","ランニング"]
     },
     "料理": {
       "tag": "料理",
-      "tailWord": "をつくる",
+      "tailWordMorning": "をつくって",
+      "tailWordNoon": "をつくって",
+      "tailWordEvening": "をつくる",
       "items": ["カロリーを無視した料理"]
     },
     "その他": {
       "tag": "その他",
-      "tailWord": null,
-      "items": ["楽器の練習する","ロッククライミング","お家で禅をする","瞑想する"]
+      "tailWordMorning": "をして",
+      "tailWordNoon": "をして",
+      "tailWordEvening": "をする",
+      "items": ["楽器の練習","お家で禅","瞑想","深田えいみのツイートへリプ"]
     }
   },
-  "morning": {},
-  "noon": {},
-  "evening": {}
+  "morning": {
+    "映像": {
+      "tag": "映像",
+      "tailWordMorning": "を観て",
+      "items" : ["アメリ"]
+    },
+    "Youtube": {
+      "tag": "Youtube",
+      "tailWordMorning": "の動画を観て",
+      "items" : ["となりのトトロ"]
+    },
+    "アニメ": {
+      "tag": "アニメ",
+      "tailWordMorning": "を観て",
+      "items" : ["プリキュア"]
+    },
+    "読み物": {
+      "tag": "読み物",
+      "tailWordMorning": "を読んで",
+      "items" : ["もものかんづめ さくらももこ"]
+    },
+    "音楽": {
+      "tag": "音楽",
+      "tailWordMorning": "を聞いて",
+      "items" : ["さだまさしのアルバム"]
+    },
+    "お出かけ": {
+      "tag": "お出かけ",
+      "tailWordMorning": "へ行って",
+      "items" : ["朝日の昇る丘"]
+    },
+    "食べ物": {
+      "tag": "食べ物",
+      "tailWordMorning": "を食べて",
+      "items" : ["創意工夫してみた目玉焼き"]
+    },
+    "飲み物": {
+      "tag": "飲み物",
+      "tailWordMorning": "を飲んで",
+      "items" : ["いつものより高い牛乳","自作で作ったフルーツジュース"]
+    },
+    "ゲーム": {
+      "tag": "ゲーム",
+      "tailWordMorning": "をプレイして",
+      "items" : ["クソゲー"]
+    },
+    "スポーツ": {
+      "tag": "スポーツ",
+      "tailWordMorning": "をして",
+      "items" : ["カバディ"]
+    },
+    "料理": {
+      "tag": "料理",
+      "tailWordMorning": "をつくって",
+      "items" : ["作り置き用の料理"]
+    },
+    "その他": {
+      "tag": "その他",
+      "tailWordMorning": "をして",
+      "items" : ["ラジオ体操"]
+    }
+  },
+  "noon": {
+    "映像": {
+      "tag": "映像",
+      "tailWordNoon": "を観て",
+      "items" : ["北の国から"]
+    },
+    "Youtube": {
+      "tag": "Youtube",
+      "tailWordNoon": "の動画を観て",
+      "items" : ["クソゲーYoutuber"]
+    },
+    "アニメ": {
+      "tag": "アニメ",
+      "tailWordNoon": "を観て",
+      "items" : ["オッドタクシー"]
+    },
+    "読み物": {
+      "tag": "読み物",
+      "tailWordNoon": "を読んで",
+      "items" : ["知らない作家の本"]
+    },
+    "音楽": {
+      "tag": "音楽",
+      "tailWordNoon": "を聞いて",
+      "items" : ["聞いたことのないジャンルの音楽"]
+    },
+    "お出かけ": {
+      "tag": "お出かけ",
+      "tailWordNoon": "へ行って",
+      "items" : ["山","森","樹海","海","荒地","畑","川","湖"]
+    },
+    "食べ物": {
+      "tag": "食べ物",
+      "tailWordNoon": "を食べて",
+      "items" : ["トムヤムクン"]
+    },
+    "飲み物": {
+      "tag": "飲み物",
+      "tailWordNoon": "を飲んで",
+      "items" : ["ウイスキー"]
+    },
+    "ゲーム": {
+      "tag": "ゲーム",
+      "tailWordNoon": "をプレイして",
+      "items" : ["ツムツム","ウマ娘"]
+    },
+    "スポーツ": {
+      "tag": "スポーツ",
+      "tailWordNoon": "をして",
+      "items" : ["水泳","サッカー","テニス","格闘技の練習"]
+    },
+    "料理": {
+      "tag": "料理",
+      "tailWordNoon": "をつくって",
+      "items" : ["パクチーを使った料理","マレーシアの料理","タイの料理","ドイツの料理","タコス","クスクス"]
+    },
+    "その他": {
+      "tag": "その他",
+      "tailWordNoon": "をして",
+      "items" : ["Naokiman showのモノマネ"]
+    }
+  },
+  "evening": {
+    "映像": {
+      "tag": "映像",
+      "tailWordEvening": "を観る",
+      "items" : ["アメリ"]
+    },
+    "Youtube": {
+      "tag": "Youtube",
+      "tailWordEvening": "の動画を観る",
+      "items" : ["となりのトトロ"]
+    },
+    "アニメ": {
+      "tag": "アニメ",
+      "tailWordEvening": "を観る",
+      "items" : ["ヴァイオレットエヴァーガーデン"]
+    },
+    "読み物": {
+      "tag": "読み物",
+      "tailWordEvening": "を読む",
+      "items" : ["短編小説","夢をかなえる像"]
+    },
+    "音楽": {
+      "tag": "音楽",
+      "tailWordEvening": "を聴く",
+      "items" : ["スガシオカオ"]
+    },
+    "お出かけ": {
+      "tag": "お出かけ",
+      "tailWordEvening": "へ行く",
+      "items" : ["虫の鳴き声のするところ"]
+    },
+    "食べ物": {
+      "tag": "食べ物",
+      "tailWordEvening": "を食べる",
+      "items" : ["いつものデザートにお酒をかけたもの","いつもは食べない価格帯の海鮮丼","いつもは食べない価格帯の寿司","いつもは食べない価格帯のカレー"]
+    },
+    "飲み物": {
+      "tag": "飲み物",
+      "tailWordEvening": "を飲む",
+      "items" : ["アルコール度数の高いお酒"]
+    },
+    "ゲーム": {
+      "tag": "ゲーム",
+      "tailWordEvening": "をプレイする",
+      "items" : ["任天堂のゲーム"]
+    },
+    "スポーツ": {
+      "tag": "スポーツ",
+      "tailWordEvening": "をする",
+      "items" : ["夜の剣道"]
+    },
+    "料理": {
+      "tag": "料理",
+      "tailWordEvening": "をつくる",
+      "items" : ["自分で捌いた刺身","寿司","パンナコッタ","でかい肉を丸ごと焼いた料理"]
+    },
+    "その他": {
+      "tag": "その他",
+      "tailWordEvening": "をする",
+      "items" : ["早寝"]
+    }
+  }
 }
 
