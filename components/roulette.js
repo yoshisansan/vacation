@@ -219,7 +219,7 @@ const Roulette = () => {
     } else {
       text = `あなたにおすすめの休日ガチャプランは、%0a【朝】${morning}%0a【昼】${noon}%0a【夜】${evening}%0aです。%0a`;
     };
-    const url = `localhost:8000`;
+    const url = `https://gatya-vacation.vercel.app/`;
     const hashtags = 'ガチャバケーション';
 
     return (

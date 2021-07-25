@@ -11,16 +11,19 @@ export default function Layout({ children }) {
     <Head>
       <title>ガチャバケーション</title>
       <link rel="icon" href="/favicon.ico" />
-      <meta
-        name="description"
-        content="何したらいいのかわからない大切な休日の時間の使い方を適当に決めよう"
-      />
-      <meta
-        property="og:image"
-        content={`/gatya-vacation-og.png`}
-      />
-      <meta name="og:title" content={siteTitle} />
+      <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+      <meta name="description" content="大切な休日の過ごし方は適当に決めよう！" />
+      <meta property="og:url" content="https://gatya-vacation.vercel.app/" />
+      <meta property="og:title" content={siteTitle} />
+      <meta property="og:site_name" content={siteTitle} />
+      <meta property="og:description" content="大切な休日の過ごし方は適当に決めよう！" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://gatya-vacation.vercel.app/gatya-vacation-og.png" />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@akifumiyoshimu" />
+      <meta name="twitter:title" content="ガチャバケーション" />
+      <meta name="twitter:description" content="大切な休日の過ごし方は適当に決めよう！" />
+      <meta name="twitter:image" content="https://gatya-vacation.vercel.app/gatya-vacation-og.png" />
     </Head>
     <header className={styles.header}>
     <h1 className={styles.title}>
